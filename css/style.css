@@ -9,7 +9,8 @@ body {
 }
 
 header {
-  background-color: #656d4a;
+  background: rgb(101,109,74);
+  background: linear-gradient(90deg, rgba(101,109,74,1) 0%, rgba(61,65,46,1) 100%); 
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -132,6 +133,7 @@ font-family: 'Questrial', sans-serif;;
     align-content: center;
     padding: 10px 20px;
     color: rgba(255, 255, 255, 0.822);
+    justify-content: space-between;
   }
 
   .copyright {
@@ -145,11 +147,11 @@ font-family: 'Questrial', sans-serif;;
   
   .icons a {
     margin: 0 8px;
-    color: rgb(255, 255, 255, 0.5); /* You can adjust the 0.5 to, say, 0.7 if your icons are too faint */
+    color: rgba(255, 255, 255, 0.756); /* You can adjust the 0.5 to, say, 0.7 if your icons are too faint */
   }
   
   .icons a:hover {
-    color: rgb(255, 255, 255, 0.8); /* See note above */
+    color: rgba(255, 255, 255, 0.954); /* See note above */
   }
 
   @media all and (max-width:700px) {
